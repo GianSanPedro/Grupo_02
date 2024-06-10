@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"choferes"},{"l":"excepciones"},{"l":"excepciones.chofer"},{"l":"excepciones.pedido"},{"l":"excepciones.usuario"},{"l":"excepciones.vehiculo"},{"l":"excepciones.viaje"},{"l":"prueba"},{"l":"sistema"},{"l":"usuarios"},{"l":"vehiculos"},{"l":"viajes"}];updateSearchResults();
