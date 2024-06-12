@@ -10,95 +10,93 @@ import java.io.Serializable;
  *Clase encargada de almacenar los parametros de la simulacion
  * */
 public class ParametrosSimulacion implements Serializable{
-   private int cantClientes;
-   private int cantMaxViajeCliente; 
-   private int cantChoferTemporario;
-   private int cantChoferContratado;
-   private int cantChoferPermanente; 
-   private int cantMaxViajeChofer;
-   private int cantAutos; 
-   private int cantMotos;  
-   private int cantCombis;   
-   
-   public ParametrosSimulacion(){}
+	private int cantClientes;
+	private int cantMaxViajeCliente; 
+	private int cantChoferTemporario;
+	private int cantChoferContratado;
+	private int cantChoferPermanente; 
+	private int cantMaxViajeChofer;
+	private int cantAutos; 
+	private int cantMotos;  
+	private int cantCombis;   
 
-   
-   public int CantChoferes()
-   {
-       return cantChoferTemporario+cantChoferContratado+cantChoferPermanente;
-   }
-    public int getCantClientes() {
-        return cantClientes;
-    }
+	public ParametrosSimulacion(){}
 
-    public void setCantClientes(int cantClientes) {
-        this.cantClientes = cantClientes;
-    }
 
-    public int getCantMaxViajeCliente() {
-        return cantMaxViajeCliente;
-    }
+	public int CantChoferes()
+	{
+		return cantChoferTemporario+cantChoferContratado+cantChoferPermanente;
+	}
+	public int getCantClientes() {
+		return cantClientes;
+	}
 
-    public void setCantMaxViajeCliente(int cantMaxViajeCliente) {
-        this.cantMaxViajeCliente = cantMaxViajeCliente;
-    }
+	public void setCantClientes(int cantClientes) {
+		this.cantClientes = cantClientes;
+	}
 
-    public int getCantChoferTemporario() {
-        return cantChoferTemporario;
-    }
+	public int getCantMaxViajeCliente() {
+		return cantMaxViajeCliente;
+	}
 
-    public void setCantChoferTemporario(int cantChoferTemporario) {
-        this.cantChoferTemporario = cantChoferTemporario;
-    }
+	public void setCantMaxViajeCliente(int cantMaxViajeCliente) {
+		this.cantMaxViajeCliente = cantMaxViajeCliente;
+	}
 
-    public int getCantChoferContratado() {
-        return cantChoferContratado;
-    }
+	public int getCantChoferTemporario() {
+		return cantChoferTemporario;
+	}
 
-    public void setCantChoferContratado(int cantChoferContratado) {
-        this.cantChoferContratado = cantChoferContratado;
-    }
+	public void setCantChoferTemporario(int cantChoferTemporario) {
+		this.cantChoferTemporario = cantChoferTemporario;
+	}
 
-    public int getCantChoferPermanente() {
-        return cantChoferPermanente;
-    }
+	public int getCantChoferContratado() {
+		return cantChoferContratado;
+	}
 
-    public void setCantChoferPermanente(int cantChoferPermanente) {
-        this.cantChoferPermanente = cantChoferPermanente;
-    }
+	public void setCantChoferContratado(int cantChoferContratado) {
+		this.cantChoferContratado = cantChoferContratado;
+	}
 
-    public int getCantMaxViajeChofer() {
-        return cantMaxViajeChofer;
-    }
+	public int getCantChoferPermanente() {
+		return cantChoferPermanente;
+	}
 
-    public void setCantMaxViajeChofer(int cantMaxViajeChofer) {
-        this.cantMaxViajeChofer = cantMaxViajeChofer;
-    }
+	public void setCantChoferPermanente(int cantChoferPermanente) {
+		this.cantChoferPermanente = cantChoferPermanente;
+	}
 
-    public int getCantAutos() {
-        return cantAutos;
-    }
+	public int getCantMaxViajeChofer() {
+		return cantMaxViajeChofer;
+	}
 
-    public void setCantAutos(int cantAutos) {
-        this.cantAutos = cantAutos;
-    }
+	public void setCantMaxViajeChofer(int cantMaxViajeChofer) {
+		this.cantMaxViajeChofer = cantMaxViajeChofer;
+	}
 
-    public int getCantMotos() {
-        return cantMotos;
-    }
+	public int getCantAutos() {
+		return cantAutos;
+	}
 
-    public void setCantMotos(int cantMotos) {
-        this.cantMotos = cantMotos;
-    }
+	public void setCantAutos(int cantAutos) {
+		this.cantAutos = cantAutos;
+	}
 
-    public int getCantCombis() {
-        return cantCombis;
-    }
+	public int getCantMotos() {
+		return cantMotos;
+	}
 
-    public void setCantCombis(int cantCombis) {
-        this.cantCombis = cantCombis;
-    }
-   
-   
-   
+	public void setCantMotos(int cantMotos) {
+		this.cantMotos = cantMotos;
+	}
+
+	public int getCantCombis() {
+		return cantCombis;
+	}
+
+	public void setCantCombis(int cantCombis) {
+		this.cantCombis = cantCombis;
+	}
+
 }
